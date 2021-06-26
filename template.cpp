@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define for(i,a,b) for(ll i = a;i < b;i++)
 #define M 1000000007
 #define pb push_back
+#define mp make_pair
 #define F first
 #define S second
 #define all(x) x.begin(), x.end()
@@ -21,7 +21,7 @@ int main()
 {
     int t=1;
     cin>>t;
-    for(i,1,t+1)
+    for(int i=1;i<=t;i++)
     {
         // cout<<"Case #"<<i<<": "<<endl;
         solve();
