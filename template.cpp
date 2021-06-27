@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define nl "\n"
 #define ll long long
 #define M 1000000007
 #define pb push_back
@@ -19,6 +20,8 @@ void solve()
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int t=1;
     cin>>t;
     for(int i=1;i<=t;i++)
